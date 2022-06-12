@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #63d471;
+background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
+
+}
+.minititulo{
+    color: black;
+    font-size: 3rem;
+}
+.subti{
+    color: black;
+    font-size: 2rem;
+}
+.pick{
+    width: 600px;
+    height: 600px;
+}
+.social-bar{
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+.icon{
+    color: white;
+    text-decoration: none;
+    padding: 2rem;
+    display: flex;
+    transition: all .5s;
+}
+.icon-facebook{
+    background: #2E406E;
+    border-radius: 1rem 0 0 0;
+}
+.icon-instagram{
+    background: rgb(245, 20, 158);
+}
+.icon-youtube{
+    background: #E83028;
+}
+.icon-whatsapp{
+    background: #63d471;
+    border-radius: 0 0 0 1rem;
+}
+.icon:hover{
+    padding-right: 3rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
+@media only screen and (max-width:576px){
+    .col-3{
+        width: 50%;
+        padding: 20px;
+    }
+}
+@media only screen and (max-width:768px){
+    .col-3{
+        width: 50%;
+        padding: 20px;
+    }
+}
+@media only screen and (max-width:768px){
+    .container{
+        width: 70%;
+        padding:40px;
+    }
+}
+@media only screen and (max-width:576px){
+    .container{
+        width: 70%;
+        padding:40px;
+    }
+}
